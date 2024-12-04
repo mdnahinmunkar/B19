@@ -1,0 +1,47 @@
+.container {
+    display: flex;
+    justify-content: space-between; /* This aligns the divs side by side */
+    align-items:stretch ;
+    height: 100vh;
+}
+
+.side-by-side1 {
+    width: 30%; /* Adjust the width as needed */
+    
+    padding: 10px;
+    background-color: rgb(34, 34, 78);
+    align-items:stretch ;
+    border: 1px solid #ccc;
+    
+}
+.side-by-side1 img {
+    
+}
+.side-by-side2 {
+    width: 70%; /* Adjust the width as needed */
+    padding: 10px;
+    background-color: white;
+    border: 10px solid #ccc;
+    padding: 100px;
+    
+    
+    
+}
+
+
+.hr {
+            width: 15%; /* Adjust the width of the line */
+            margin-left: 0%; /* Push it to the right */
+            margin-right: auto; /* Leave 5% space from the right edge */
+            border: 1px solid black;
+            height: 3px;
+            background-color: rgb(16, 16, 16);
+            color: rgb(7, 2, 2);
+}
+.hr2 {
+    height: 2px;
+    background-color: black;
+}
+.bio {
+    color: blue;
+}
